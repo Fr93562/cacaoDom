@@ -1,3 +1,4 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5a12a718a5784576a3a89600ddcc4f9a)](https://www.codacy.com/manual/Fr93562/cacaoDom?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Fr93562/cacaoDom&amp;utm_campaign=Badge_Grade)
 ![coverage](https://img.shields.io/badge/coverage-100-green)
 ![dependance](https://img.shields.io/badge/dependance-0-green)
 
