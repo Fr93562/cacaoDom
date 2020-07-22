@@ -95,4 +95,28 @@ CacaoDom.update("app", `<p> ${ votre nouvelle variable }/p>`);
 
 ## Tests
 
+Coverage actuel : *100%*
+
+### Fonctionnement de l'objet
+
+Instanciation de l'objet: *check*
+
+### Ajout d'un élément au DOM
+
+Paramètres corrects: *check*
+
+Paramètres incorrects: *check*
+
+### Suppression d'un élément du DOM
+
+Paramètre correct: *check*
+
+Paramètre incorrect: *check*
+
+### Mise à jour d'un élément du DOM
+
+*Basé sur les deux méthodes précédentes qui ont été vérifiés.*
+
 ## Features à venir
+
+/
