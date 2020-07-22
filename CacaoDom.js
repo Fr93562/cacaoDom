@@ -9,6 +9,11 @@
  */
 class CacaoDom {
 
+    warning = {
+        id : "The first parameter must be a string.",
+        content : "The second parmaeter must be a string."
+    }
+
     constructor() {}
 
     /**
@@ -18,6 +23,9 @@ class CacaoDom {
      * @param {*} content string - contenu html à rajouter
      */
     render(id, content) {
+
+        if(typeof id !== "string") { this.error(this.warning.id); }
+        if(typeof content !== "string") { this.error(this.warning.id); }
 
         let element = document.getElementById(id);
         element.insertAdjacentHTML("beforeEnd", content);
@@ -29,6 +37,8 @@ class CacaoDom {
      * @param {*} id string - id de la classe à manipuler
      */
     clear(id) {
+
+        if(typeof id !== "string") { this.error(this.warning.id); }
 
         let element = document.getElementById(id);
         element.innerHTML = "";
@@ -45,6 +55,15 @@ class CacaoDom {
 
         this.clear(id);
         this.render(id, content);
+    }
+
+    /**
+     * Lance une exception
+     * @param {*} content string - message de l'erreur
+     */
+    error(content) {
+
+        throw content;
     }
 }
 

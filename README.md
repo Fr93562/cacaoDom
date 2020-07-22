@@ -1,3 +1,5 @@
+![coverage](https://img.shields.io/badge/coverage-100-green)
+![dependance](https://img.shields.io/badge/dependance-0-green)
 
 # CacaoDom
 
