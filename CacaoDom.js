@@ -20,7 +20,7 @@ class CacaoDom {
     render(id, content) {
 
         let element = document.getElementById(id);
-        element.insertAdjacentHTML('beforeEnd', content);
+        element.insertAdjacentHTML("beforeEnd", content);
     }
 
     /**
