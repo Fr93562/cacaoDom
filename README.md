@@ -7,7 +7,7 @@
 ![image](./assets/CacaoDom.jpg)
 
 
-* Equipe projet: François Mackowski
+* Equipe projet: Fr93562
 * Date: 22/07/2020
 * Version: 0.1
 * Etat du projet: En cours
