@@ -36,6 +36,12 @@ Pour utiliser la librairie, il suffit d'importer le fichier CacaoDom.js comme ci
 import CacaoDom from '../libary/CacaoDom';
 ```
 
+Dans les cas suivants, on suppose qu'on souhaite modifier un élément du dom avec l'id "app" avec par exemple:
+
+```html
+<div id="app></div>
+```
+
 *Note : CacaoEngine est une classe javascript. Dès son import, elle est déjà instanciée et peut être immédiatement utilisée.*
 
 ### Ajouter des éléments au DOM
